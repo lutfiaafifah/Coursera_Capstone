@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f458243f77a54dd3bd389d178745b0b5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f458243f77a54dd3bd389d178745b0b5" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f458243f77a54dd3bd389d178745b0b5 = L.map(
+                                  'map_f458243f77a54dd3bd389d178745b0b5',
+                                  {center: [-8.6831728,115.2564626],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_33dee8ac72af496dbdd3d79fb5c68e43 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+        
+    
+            var circle_marker_e98bc104120f4dd1b59fbab9289e1b84 = L.circleMarker(
+                [-8.6622439,115.19806720677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_df554252f37e4997bd6912859bd968b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f9edb7909a14171ac3960ddd5c77855 = $('<div id="html_9f9edb7909a14171ac3960ddd5c77855" style="width: 100.0%; height: 100.0%;">Denpasar Barat - Cluster 2</div>')[0];
+                popup_df554252f37e4997bd6912859bd968b4.setContent(html_9f9edb7909a14171ac3960ddd5c77855);
+            
+
+            circle_marker_e98bc104120f4dd1b59fbab9289e1b84.bindPopup(popup_df554252f37e4997bd6912859bd968b4);
+
+            
+        
+    
+            var circle_marker_b7bd940554964b9ba6a14a35076f7c35 = L.circleMarker(
+                [-8.7061341,115.225675791037],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_3cf1901cda784333b97d169caf564eb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0e1fb1ac76e46ca9598836c6ac02a25 = $('<div id="html_f0e1fb1ac76e46ca9598836c6ac02a25" style="width: 100.0%; height: 100.0%;">Denpasar Selatan - Cluster 0</div>')[0];
+                popup_3cf1901cda784333b97d169caf564eb6.setContent(html_f0e1fb1ac76e46ca9598836c6ac02a25);
+            
+
+            circle_marker_b7bd940554964b9ba6a14a35076f7c35.bindPopup(popup_3cf1901cda784333b97d169caf564eb6);
+
+            
+        
+    
+            var circle_marker_0f2b789fad35458f9a1c9bbc606aa42a = L.circleMarker(
+                [-8.6329143,115.246210522232],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_19a3d140186c471cb0294836f0834aad = L.popup({maxWidth: '300'});
+
+            
+                var html_cdd1c69aa46e4af397a490629efc8210 = $('<div id="html_cdd1c69aa46e4af397a490629efc8210" style="width: 100.0%; height: 100.0%;">Denpasar Timur - Cluster 2</div>')[0];
+                popup_19a3d140186c471cb0294836f0834aad.setContent(html_cdd1c69aa46e4af397a490629efc8210);
+            
+
+            circle_marker_0f2b789fad35458f9a1c9bbc606aa42a.bindPopup(popup_19a3d140186c471cb0294836f0834aad);
+
+            
+        
+    
+            var circle_marker_447fe060ef874700bceb9095515cf80b = L.circleMarker(
+                [-8.62451315,115.209008845863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_92f19a8deb4a4ccab41096c108d5061d = L.popup({maxWidth: '300'});
+
+            
+                var html_283ca4df2c7048f78b0639cc7ac0e07c = $('<div id="html_283ca4df2c7048f78b0639cc7ac0e07c" style="width: 100.0%; height: 100.0%;">Denpasar Utara - Cluster 2</div>')[0];
+                popup_92f19a8deb4a4ccab41096c108d5061d.setContent(html_283ca4df2c7048f78b0639cc7ac0e07c);
+            
+
+            circle_marker_447fe060ef874700bceb9095515cf80b.bindPopup(popup_92f19a8deb4a4ccab41096c108d5061d);
+
+            
+        
+    
+            var circle_marker_335204f840b74641be92f4dfa1d29b0d = L.circleMarker(
+                [-8.5644545,115.1320721],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_af7ae016e3e7435e9580edddba21b83d = L.popup({maxWidth: '300'});
+
+            
+                var html_9eb5631109ce48b685c7a7b092d704fe = $('<div id="html_9eb5631109ce48b685c7a7b092d704fe" style="width: 100.0%; height: 100.0%;">Kediri - Cluster 2</div>')[0];
+                popup_af7ae016e3e7435e9580edddba21b83d.setContent(html_9eb5631109ce48b685c7a7b092d704fe);
+            
+
+            circle_marker_335204f840b74641be92f4dfa1d29b0d.bindPopup(popup_af7ae016e3e7435e9580edddba21b83d);
+
+            
+        
+    
+            var circle_marker_6250076ef21a4c95bfc939937bea58cf = L.circleMarker(
+                [-8.7278354,115.1730049],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_58e8087843464146ad3d0b954e504527 = L.popup({maxWidth: '300'});
+
+            
+                var html_229428c5595d458cab650bf47c50da9b = $('<div id="html_229428c5595d458cab650bf47c50da9b" style="width: 100.0%; height: 100.0%;">Kuta - Cluster 0</div>')[0];
+                popup_58e8087843464146ad3d0b954e504527.setContent(html_229428c5595d458cab650bf47c50da9b);
+            
+
+            circle_marker_6250076ef21a4c95bfc939937bea58cf.bindPopup(popup_58e8087843464146ad3d0b954e504527);
+
+            
+        
+    
+            var circle_marker_2712c363d41e4ae8b56cd3e52b7b5bc2 = L.circleMarker(
+                [-8.80884895,115.169527842076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_41d8f477f5d1462aa0c6b6ad23c0b9fe = L.popup({maxWidth: '300'});
+
+            
+                var html_cc7553e46fc04d1f908bf0352661a792 = $('<div id="html_cc7553e46fc04d1f908bf0352661a792" style="width: 100.0%; height: 100.0%;">Kuta Selatan - Cluster 1</div>')[0];
+                popup_41d8f477f5d1462aa0c6b6ad23c0b9fe.setContent(html_cc7553e46fc04d1f908bf0352661a792);
+            
+
+            circle_marker_2712c363d41e4ae8b56cd3e52b7b5bc2.bindPopup(popup_41d8f477f5d1462aa0c6b6ad23c0b9fe);
+
+            
+        
+    
+            var circle_marker_8ceab34b740e4301b3c93a771a3c7d0f = L.circleMarker(
+                [-8.6780422,115.1698611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_f0b3999b2d854992b644f678498ea3ec = L.popup({maxWidth: '300'});
+
+            
+                var html_98560168c9aa49e2ba723083b318508f = $('<div id="html_98560168c9aa49e2ba723083b318508f" style="width: 100.0%; height: 100.0%;">Kuta Utara - Cluster 0</div>')[0];
+                popup_f0b3999b2d854992b644f678498ea3ec.setContent(html_98560168c9aa49e2ba723083b318508f);
+            
+
+            circle_marker_8ceab34b740e4301b3c93a771a3c7d0f.bindPopup(popup_f0b3999b2d854992b644f678498ea3ec);
+
+            
+        
+    
+            var circle_marker_107aeb9cd151473c881715d0049f9822 = L.circleMarker(
+                [-8.74565245,115.534744961883],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f458243f77a54dd3bd389d178745b0b5);
+            
+    
+            var popup_b8ad2ad9df5540b081742d6f33a0cc80 = L.popup({maxWidth: '300'});
+
+            
+                var html_36f7eca0fa7b441c8cd6957ebf6d5ed4 = $('<div id="html_36f7eca0fa7b441c8cd6957ebf6d5ed4" style="width: 100.0%; height: 100.0%;">Nusa Penida - Cluster 1</div>')[0];
+                popup_b8ad2ad9df5540b081742d6f33a0cc80.setContent(html_36f7eca0fa7b441c8cd6957ebf6d5ed4);
+            
+
+            circle_marker_107aeb9cd151473c881715d0049f9822.bindPopup(popup_b8ad2ad9df5540b081742d6f33a0cc80);
+
+            
+        
+</script>
